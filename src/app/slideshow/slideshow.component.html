@@ -1,0 +1,11 @@
+
+<ngb-carousel>
+    <ng-template ngbSlide *ngFor="let photo of photos">
+        <div class="image-container">
+            <img [src]="photo">
+            <div class="carousel-caption">
+                <h3>Los Boyos</h3>
+            </div>
+        </div>
+    </ng-template>
+</ngb-carousel>
