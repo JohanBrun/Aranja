@@ -1,0 +1,48 @@
+
+mat-toolbar {
+    position: relative;
+    display: flex;
+    height: 100%;
+    z-index: 10;
+    justify-content: space-between;
+
+    background-color: #f8c83c;
+    box-shadow: 0px 2px 10px #555;
+    padding: 10px 10vw;
+
+}
+
+.nav-button {
+    background-color: #f8c83c;
+    font-family: 'Rock Salt';
+    outline: none;
+    font-size: 1rem;
+}
+
+.center {
+    
+    text-align: center;
+    outline: none;
+    font-size: 1.5rem;
+    .page-title {
+        transition: 0.5s;
+        font-family: 'Rock Salt';
+    }
+    .logo {
+        transition: 0.5s;
+        height: 3rem;
+    }
+}
+
+.center:hover {
+    cursor: pointer;
+    
+    .page-title {
+        transition: 0.5s;
+        font-size: 1.6rem;
+    }
+    .logo {
+        transition: 0.5s;
+        height: 3.2rem;
+    }
+}
